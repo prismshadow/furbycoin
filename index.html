@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FURBY COIN</title>
-    
+    <link rel="stylesheet" href="index.css">
+
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="dist/output.css" />
@@ -158,8 +159,8 @@
             <div class="main-logo  w-80 md:96 lg:w-1/2 ">
                 <img class="imglogo" src="images/FURBY MAIN.jpg" alt="Animated etf logo">
             </div>
-        </div>
-
+       
+       
        
 
     </section>
@@ -190,12 +191,28 @@
                         </p>
                     </div>
                 </div>
+
+              </div>
+
+            <!-- Dexscreener Chart Embed -->
+              <style>
+              #dexscreener-embed{position:relative;width:75%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:80%;top:0;left:0;border:0;}
+              #dexscreener-embed + .live-chart-title {
+                margin-top: -140px; }
+              </style>
+              <div id="dexscreener-embed" >
+                <iframe src="https://dexscreener.com/solana/Atzjx2TzabxLNtvjUdK4dzCMd87DAJVzUQntw8WAsDUi?embed=1&theme=dark"></iframe>
+              </div>
+
+              <h2 class="live-chart-title text-2xl lg:text-7xl font-bold text-white mt-2">LIVE CHART</h2>
+
+              
             </div>
         </div>
     </section>
 
     <!-- Tokenomics Section -->
-    <section id="tokenomics" class=" text-white py-16 z-0">
+    <section id="tokenomics" class=" text-white py-32 z-0">
         <div class="container mx-auto text-center">
             <div class="token1 flex flex-col-reverse md:flex-row md:items-center justify-start mx-4 md:mx-6 lg:mx-8">
                 <h1 class="token text-5xl lg:text-7xl font-extrabold mb-8 text-white ">Tokenomics</h1>
@@ -247,6 +264,42 @@
             </div>
         </div>
     </section>
+
+
+
+     <!-- Nesting Section -->
+     <section id="nesting" class="py-64 bg-black text-white z-0">
+    <div class="container mx-auto px-4 lg:px-8 ">
+        <h1 class="text-5xl lg:text-7xl font-extrabold mb-8 text-left">Nesting</h1>
+        
+        <div class="flex flex-col-reverse lg:flex-row justify-between items-center mx-4 lg:mx-10">
+            <div class="main-logo w-full lg:w-1/3 mt-8 lg:mt-0">
+                <img src="images/nesting-1.png" alt="Animated" class="rounded-full mx-auto" />
+            </div>
+            <div class="main-head text-white w-full lg:w-1/2 flex flex-col mt-8 lg:mt-0">
+                <p class="about-context about-text text-gray-300 mx-2 md:mx-12 text-left lg:text-2xl flex flex-col">
+                    <span>
+                        Welcome to Furby Coin's Nesting program, an innovative way for token
+                        holders to unlock growth and earn rewards.By participating, you're not just 
+                        staking; you're nurturing your investment and contributing to the ecosystem's 
+                        vitality. Nesting allows your Furby Coins to accrue rewards over time, offering
+                        the chance to unlock exclusive NFTs and discover unique, hatched Furbies with 
+                        special traits.This program is designed to be seamless and rewarding,
+                        providing passive income and access to exclusive community events. Embark on this
+                        exciting journey, experience the thrill of discovery, and watch your investment flourish.
+                        For a limited time only, the first 50 nesters will receive governance tokens as a reward, so act fast!
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
 
     <!-- whitepaper section -->
     <section id="partners" class="z-0">

@@ -66,7 +66,47 @@ body {
     background-color: #b11bb6;
   }
 
-  
+
+  @keyframes gradient-swish {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.live-chart-title {
+    background: linear-gradient(270deg, #ad5bff, #6fc6ef, #e658c2, #89CFF0, #DDBDFE);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-swish 3s ease infinite;
+    display: inline-block;
+}
+
+#dexscreener-embed { 
+    position: relative;
+    width: 75%;
+    padding-bottom: 125%;
+   
+}
+
+@media(min-width: 1400px) { 
+    #dexscreener-embed { 
+        padding-bottom: 65%;
+    }
+}
+
+#dexscreener-embed iframe { 
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+
  
+
 
   
